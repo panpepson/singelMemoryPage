@@ -1,0 +1,40 @@
+*{
+box-sizing:  border-box;
+margin:  0;
+padding: 0;
+}
+
+body{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	height: 100vh;
+	color:white;
+	font-family: "Quicksand", sans-serif;
+}
+
+#time {
+	font-family: none;
+	font-size: 8rem;
+}
+h1 {
+	margin-bottom:  3rem;
+	margin-top: 3rem;
+}
+h2 {
+	margin-bottom:  0.5rem;
+	opacity: 0.8;
+}
+#stempel{
+	font-size: 4rem;
+	}
+@media (max-width: 700px) {
+	#time {
+		font-size: 4rem;
+	}
+	#stempel {
+		font-size: 3rem
+	}
+}
